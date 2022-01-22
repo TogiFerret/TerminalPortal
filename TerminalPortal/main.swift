@@ -28,7 +28,7 @@ while let str = readLine() {
     if str.contains("tportal") {
         //Function Stuff
         if str.contains(" start"){
-            a("Hello")
+            a(myString: "Hello")
         } else if str.contains(" end"){
           break
         } else {
